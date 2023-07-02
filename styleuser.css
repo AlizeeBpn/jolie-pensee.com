@@ -1,0 +1,49 @@
+
+/* user page */
+
+#user h1{
+  text-align: center;
+}
+
+.userall {display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+ }
+
+#user .usercase{
+  display: flex;
+  flex-direction: column;
+  background-color:  #F1F1F1;
+  border: 1px solid #FEFEFF;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2);
+  margin: 15px 20px;
+  transition: 0.2s ease;
+  text-align: center;
+  justify-content: center;
+  width: 40%;
+  height: 250px;
+}
+
+#user .usercase:hover{
+  box-shadow: 20px 20px 30px rgba(192, 188, 238, 0.6);
+}
+
+
+@media (max-width:799px){
+
+  #user .usercase{
+    padding: 10px;
+  }
+}
+
+
+@media (max-width: 477px){
+
+  #user .usercase{
+    width: 80%;
+  }
+}
